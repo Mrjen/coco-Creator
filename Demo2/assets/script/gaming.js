@@ -34,6 +34,9 @@ cc.Class({
     },
 
     // LIFE-CYCLE CALLBACKS:
+    gameStarted(){
+       console.log('游戏开始了游戏开始了游戏开始了游戏开始了游戏开始了游戏开始了')
+    },
 
     onLoad () {
         var timeIn = 5;
